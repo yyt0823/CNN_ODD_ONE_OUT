@@ -1,7 +1,10 @@
 # CNN Odd-One-Out Image Classifier
 
-**McGill COMP551 Mini-Project 3** — Group 110
-Ryu Quan · Yantian Yin · Junu Seo
+**McGill COMP551 Mini-Project 3** — Group 110 · Ryu Quan · Yantian Yin · Junu Seo
+
+**89.9% validation accuracy** on a 5-class visual reasoning task, beating the random baseline (20%) by 4.5× — under a strict 25,000-parameter budget.
+
+> **Skills:** PyTorch · CNN design · Depthwise separable convolutions · Data augmentation · K-fold cross-validation · Kaggle competition
 
 ---
 
@@ -104,6 +107,5 @@ Total trainable parameters: 24,992  ✓  (≤ 25,000)
 
 | File | Description |
 |------|-------------|
-| `code (1).ipynb` | Full training notebook with outputs |
-| `predicted_labels.csv` | Kaggle submission (2,000 predictions) |
-| `best_model.pt` | Saved model weights |
+| `code.ipynb` | Full training notebook with outputs |
+| `datasets/` | Training and test `.npy` files |
